@@ -1,0 +1,116 @@
+body
+{
+	background-color:#FFF5F8;
+	margin:0px;
+	padding:0px;
+	font-family: 'Satisfy', cursive;
+	font-family: 'Xanh Mono', monospace;
+	font-family:"Helvetica",Arial;
+
+}
+.contenedor{
+	width:98%;
+	margin:auto;
+}
+#contenido
+{
+	width:960px;
+	padding:20px;
+	margin:0 auto;
+	text-align:center;
+}
+h3
+{
+	font-family: 'Satisfy', cursive;
+}
+h4
+{
+	font-family: 'Xanh Mono', monospace;
+	text-align:center;
+}	
+
+nav ul li
+{
+	display:inline-block;
+	font-family: 'Xanh Mono', monospace;
+	margin-right:25px;
+	cursor:pointer;
+}
+#textoPr
+{
+	width:600px;
+	height:300px;
+	background-image:url("../img/fondo_11.png");
+	margin:0 auto;
+	color:#030303;
+	padding-top:20px;	
+	border-radius:20px;
+}
+#miCanvas
+{
+	position:absolute;
+	bottom: :0px;
+	left:0px;
+}
+form label
+{
+	display:block;
+	cursor:pointer;
+	margin:10px;
+}
+}
+#btnSubmit
+{
+	border:none;
+	background-color:#FC3A95;
+	color:#FFF5F8;
+	padding:4px;
+	margin:20px;
+	cursor:pointer;
+}
+.galeria
+{
+	width:100%;
+	margin:auto;
+	list-style:none;
+	padding:0px;
+	box-sizing:border-box;
+	display:flex;
+	flex-wrap:wrap;
+	width:960px;
+	justify-content: space-around;
+
+}
+.galeri li
+{
+	margin:5px;
+}
+.galeria img
+{
+	width:200px;
+	height:200px;
+}
+table,  th, td
+{
+	border:1px solid black;
+	border-collapse:collapse;
+
+}
+th, td
+{
+	padding:15px;
+}
+th{
+	font-family: 'Xanh Mono', monospace;
+}
+
+td{
+	font-family: 'Xanh Mono', monospace;
+}
+
+aside  h4 a
+{
+ text-align:center;
+}
+
+
